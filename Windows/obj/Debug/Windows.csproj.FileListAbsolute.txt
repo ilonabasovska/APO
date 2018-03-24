@@ -1,0 +1,15 @@
+D:\с#\Windows\Windows\bin\Debug\Windows.exe.config
+D:\с#\Windows\Windows\bin\Debug\Windows.exe
+D:\с#\Windows\Windows\bin\Debug\Windows.pdb
+D:\с#\Windows\Windows\obj\Debug\Windows.csprojResolveAssemblyReference.cache
+D:\с#\Windows\Windows\obj\Debug\Windows.MainForm.resources
+D:\с#\Windows\Windows\obj\Debug\Windows.Properties.Resources.resources
+D:\с#\Windows\Windows\obj\Debug\Windows.csproj.GenerateResource.Cache
+D:\с#\Windows\Windows\obj\Debug\Windows.csproj.CoreCompileInputs.cache
+D:\с#\Windows\Windows\obj\Debug\Windows.exe
+D:\с#\Windows\Windows\obj\Debug\Windows.pdb
+D:\с#\Windows\Windows\obj\Debug\Windows.OpenForm.resources
+D:\с#\Windows\Windows\obj\Debug\Windows.OneArgumentOperations.resources
+D:\с#\Windows\Windows\obj\Debug\Windows.ManyArgumentOperations.resources
+D:\с#\Windows\Windows\obj\Debug\Windows.LinerFiltration.resources
+D:\с#\Windows\Windows\obj\Debug\Windows.UniversalPointOperation.resources

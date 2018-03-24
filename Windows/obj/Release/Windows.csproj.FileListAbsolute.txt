@@ -1,0 +1,13 @@
+D:\с#\Windows\Windows\bin\Release\Windows.exe.config
+D:\с#\Windows\Windows\bin\Release\Windows.exe
+D:\с#\Windows\Windows\bin\Release\Windows.pdb
+D:\с#\Windows\Windows\obj\Release\Windows.LinerFiltration.resources
+D:\с#\Windows\Windows\obj\Release\Windows.MainForm.resources
+D:\с#\Windows\Windows\obj\Release\Windows.ManyArgumentOperations.resources
+D:\с#\Windows\Windows\obj\Release\Windows.OneArgumentOperations.resources
+D:\с#\Windows\Windows\obj\Release\Windows.OpenForm.resources
+D:\с#\Windows\Windows\obj\Release\Windows.Properties.Resources.resources
+D:\с#\Windows\Windows\obj\Release\Windows.csproj.GenerateResource.Cache
+D:\с#\Windows\Windows\obj\Release\Windows.csproj.CoreCompileInputs.cache
+D:\с#\Windows\Windows\obj\Release\Windows.exe
+D:\с#\Windows\Windows\obj\Release\Windows.pdb
