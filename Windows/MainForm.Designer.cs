@@ -285,7 +285,7 @@
             this.linearFiltrationToolStripMenuItem,
             this.nonlinearFiltrationToolStripMenuItem});
             this.smoothingToolStripMenuItem.Name = "smoothingToolStripMenuItem";
-            this.smoothingToolStripMenuItem.Size = new System.Drawing.Size(159, 26);
+            this.smoothingToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.smoothingToolStripMenuItem.Text = "Smoothing";
             // 
             // linearFiltrationToolStripMenuItem
@@ -307,13 +307,13 @@
             // logicalFiltrationToolStripMenuItem
             // 
             this.logicalFiltrationToolStripMenuItem.Name = "logicalFiltrationToolStripMenuItem";
-            this.logicalFiltrationToolStripMenuItem.Size = new System.Drawing.Size(197, 26);
+            this.logicalFiltrationToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.logicalFiltrationToolStripMenuItem.Text = "Logical filtration ";
             // 
             // medianFiltrationToolStripMenuItem
             // 
             this.medianFiltrationToolStripMenuItem.Name = "medianFiltrationToolStripMenuItem";
-            this.medianFiltrationToolStripMenuItem.Size = new System.Drawing.Size(197, 26);
+            this.medianFiltrationToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.medianFiltrationToolStripMenuItem.Text = "Median filtration";
             // 
             // sharpeningToolStripMenuItem
@@ -322,19 +322,20 @@
             this.gradientFiltrationToolStripMenuItem,
             this.laplasianFiltrationToolStripMenuItem});
             this.sharpeningToolStripMenuItem.Name = "sharpeningToolStripMenuItem";
-            this.sharpeningToolStripMenuItem.Size = new System.Drawing.Size(159, 26);
+            this.sharpeningToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.sharpeningToolStripMenuItem.Text = "Sharpening";
+            this.sharpeningToolStripMenuItem.Click += new System.EventHandler(this.sharpeningToolStripMenuItem_Click);
             // 
             // gradientFiltrationToolStripMenuItem
             // 
             this.gradientFiltrationToolStripMenuItem.Name = "gradientFiltrationToolStripMenuItem";
-            this.gradientFiltrationToolStripMenuItem.Size = new System.Drawing.Size(207, 26);
+            this.gradientFiltrationToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.gradientFiltrationToolStripMenuItem.Text = "Gradient filtration";
             // 
             // laplasianFiltrationToolStripMenuItem
             // 
             this.laplasianFiltrationToolStripMenuItem.Name = "laplasianFiltrationToolStripMenuItem";
-            this.laplasianFiltrationToolStripMenuItem.Size = new System.Drawing.Size(207, 26);
+            this.laplasianFiltrationToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.laplasianFiltrationToolStripMenuItem.Text = "Laplasian filtration";
             // 
             // openFileDialog1

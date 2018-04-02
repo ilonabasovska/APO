@@ -216,5 +216,12 @@ namespace Windows
             upo.MdiParent = this;
             upo.Show();
         }
+
+        private void sharpeningToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Sharpering srprng = new Sharpering(openImage);
+            srprng.MdiParent = this;
+            srprng.Show();
+        }
     }
 }
