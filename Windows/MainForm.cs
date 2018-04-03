@@ -223,5 +223,19 @@ namespace Windows
             srprng.MdiParent = this;
             srprng.Show();
         }
+
+        private void universalLineOperationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UniversalLinieOperation ulo = new UniversalLinieOperation(openImage);
+            ulo.MdiParent = this;
+            ulo.Show();
+        }
+
+        private void universalMedianFiltrationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UniversalMedianFiltration umf = new UniversalMedianFiltration(openImage);
+            umf.MdiParent = this;
+            umf.Show();
+        }
     }
 }

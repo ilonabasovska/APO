@@ -89,6 +89,18 @@
     <Compile Include="Sharpering.Designer.cs">
       <DependentUpon>Sharpering.cs</DependentUpon>
     </Compile>
+    <Compile Include="UniversalLinieOperation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UniversalLinieOperation.Designer.cs">
+      <DependentUpon>UniversalLinieOperation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UniversalMedianFiltration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UniversalMedianFiltration.Designer.cs">
+      <DependentUpon>UniversalMedianFiltration.cs</DependentUpon>
+    </Compile>
     <Compile Include="UniversalPointOperation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,6 +133,12 @@
     </Compile>
     <EmbeddedResource Include="Sharpering.resx">
       <DependentUpon>Sharpering.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UniversalLinieOperation.resx">
+      <DependentUpon>UniversalLinieOperation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UniversalMedianFiltration.resx">
+      <DependentUpon>UniversalMedianFiltration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UniversalPointOperation.resx">
       <DependentUpon>UniversalPointOperation.cs</DependentUpon>

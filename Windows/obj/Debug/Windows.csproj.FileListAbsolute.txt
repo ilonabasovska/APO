@@ -29,3 +29,5 @@ G:\cs\Windows\Windows\bin\Debug\Windows.exe.config
 G:\cs\Windows\Windows\bin\Debug\Windows.exe
 G:\cs\Windows\Windows\bin\Debug\Windows.pdb
 G:\cs\Windows\Windows\obj\Debug\Windows.Sharpering.resources
+G:\cs\Windows\Windows\obj\Debug\Windows.UniversalLinieOperation.resources
+G:\cs\Windows\Windows\obj\Debug\Windows.UniversalMedianFiltration.resources

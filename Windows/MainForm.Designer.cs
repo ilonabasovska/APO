@@ -60,10 +60,10 @@
             this.logicalFiltrationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.medianFiltrationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sharpeningToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gradientFiltrationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.laplasianFiltrationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.universalLineOperationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.universalMedianFiltrationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -162,7 +162,7 @@
             this.contrastToolStripMenuItem,
             this.gammaCorrectionToolStripMenuItem});
             this.oneArgumentToolStripMenuItem.Name = "oneArgumentToolStripMenuItem";
-            this.oneArgumentToolStripMenuItem.Size = new System.Drawing.Size(185, 26);
+            this.oneArgumentToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.oneArgumentToolStripMenuItem.Text = "One argument";
             // 
             // identityToolStripMenuItem
@@ -259,14 +259,14 @@
             // twoArgumentsToolStripMenuItem
             // 
             this.twoArgumentsToolStripMenuItem.Name = "twoArgumentsToolStripMenuItem";
-            this.twoArgumentsToolStripMenuItem.Size = new System.Drawing.Size(185, 26);
+            this.twoArgumentsToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.twoArgumentsToolStripMenuItem.Text = "Two arguments";
             this.twoArgumentsToolStripMenuItem.Click += new System.EventHandler(this.twoArgumentsToolStripMenuItem_Click);
             // 
             // uPOToolStripMenuItem
             // 
             this.uPOToolStripMenuItem.Name = "uPOToolStripMenuItem";
-            this.uPOToolStripMenuItem.Size = new System.Drawing.Size(185, 26);
+            this.uPOToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.uPOToolStripMenuItem.Text = "UPO";
             this.uPOToolStripMenuItem.Click += new System.EventHandler(this.uPOToolStripMenuItem_Click);
             // 
@@ -274,7 +274,9 @@
             // 
             this.neighborOperationsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.smoothingToolStripMenuItem,
-            this.sharpeningToolStripMenuItem});
+            this.sharpeningToolStripMenuItem,
+            this.universalLineOperationToolStripMenuItem,
+            this.universalMedianFiltrationToolStripMenuItem});
             this.neighborOperationsToolStripMenuItem.Name = "neighborOperationsToolStripMenuItem";
             this.neighborOperationsToolStripMenuItem.Size = new System.Drawing.Size(222, 26);
             this.neighborOperationsToolStripMenuItem.Text = "Neighbor operations";
@@ -285,7 +287,7 @@
             this.linearFiltrationToolStripMenuItem,
             this.nonlinearFiltrationToolStripMenuItem});
             this.smoothingToolStripMenuItem.Name = "smoothingToolStripMenuItem";
-            this.smoothingToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.smoothingToolStripMenuItem.Size = new System.Drawing.Size(241, 26);
             this.smoothingToolStripMenuItem.Text = "Smoothing";
             // 
             // linearFiltrationToolStripMenuItem
@@ -307,40 +309,39 @@
             // logicalFiltrationToolStripMenuItem
             // 
             this.logicalFiltrationToolStripMenuItem.Name = "logicalFiltrationToolStripMenuItem";
-            this.logicalFiltrationToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.logicalFiltrationToolStripMenuItem.Size = new System.Drawing.Size(197, 26);
             this.logicalFiltrationToolStripMenuItem.Text = "Logical filtration ";
             // 
             // medianFiltrationToolStripMenuItem
             // 
             this.medianFiltrationToolStripMenuItem.Name = "medianFiltrationToolStripMenuItem";
-            this.medianFiltrationToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.medianFiltrationToolStripMenuItem.Size = new System.Drawing.Size(197, 26);
             this.medianFiltrationToolStripMenuItem.Text = "Median filtration";
             // 
             // sharpeningToolStripMenuItem
             // 
-            this.sharpeningToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.gradientFiltrationToolStripMenuItem,
-            this.laplasianFiltrationToolStripMenuItem});
             this.sharpeningToolStripMenuItem.Name = "sharpeningToolStripMenuItem";
-            this.sharpeningToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.sharpeningToolStripMenuItem.Size = new System.Drawing.Size(241, 26);
             this.sharpeningToolStripMenuItem.Text = "Sharpening";
             this.sharpeningToolStripMenuItem.Click += new System.EventHandler(this.sharpeningToolStripMenuItem_Click);
-            // 
-            // gradientFiltrationToolStripMenuItem
-            // 
-            this.gradientFiltrationToolStripMenuItem.Name = "gradientFiltrationToolStripMenuItem";
-            this.gradientFiltrationToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
-            this.gradientFiltrationToolStripMenuItem.Text = "Gradient filtration";
-            // 
-            // laplasianFiltrationToolStripMenuItem
-            // 
-            this.laplasianFiltrationToolStripMenuItem.Name = "laplasianFiltrationToolStripMenuItem";
-            this.laplasianFiltrationToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
-            this.laplasianFiltrationToolStripMenuItem.Text = "Laplasian filtration";
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // universalLineOperationToolStripMenuItem
+            // 
+            this.universalLineOperationToolStripMenuItem.Name = "universalLineOperationToolStripMenuItem";
+            this.universalLineOperationToolStripMenuItem.Size = new System.Drawing.Size(241, 26);
+            this.universalLineOperationToolStripMenuItem.Text = "Universal line operation";
+            this.universalLineOperationToolStripMenuItem.Click += new System.EventHandler(this.universalLineOperationToolStripMenuItem_Click);
+            // 
+            // universalMedianFiltrationToolStripMenuItem
+            // 
+            this.universalMedianFiltrationToolStripMenuItem.Name = "universalMedianFiltrationToolStripMenuItem";
+            this.universalMedianFiltrationToolStripMenuItem.Size = new System.Drawing.Size(259, 26);
+            this.universalMedianFiltrationToolStripMenuItem.Text = "Universal median filtration";
+            this.universalMedianFiltrationToolStripMenuItem.Click += new System.EventHandler(this.universalMedianFiltrationToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -394,9 +395,9 @@
         private System.Windows.Forms.ToolStripMenuItem intervalInverseThresholdingbinaryToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem inverseThresholdGrayLevelsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sharpeningToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem gradientFiltrationToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem laplasianFiltrationToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem uPOToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem universalLineOperationToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem universalMedianFiltrationToolStripMenuItem;
     }
 }
 
